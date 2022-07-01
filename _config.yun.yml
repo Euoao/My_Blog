@@ -1,0 +1,72 @@
+mode: auto
+
+# favicon: /favicon.ico
+
+avatar:
+  enable: true
+  url: /images/avatar.png
+
+  rounded: true
+  opacity: 1
+  mickey_mouse: 
+  status:
+    enable: true
+    emoji: 😊
+    message: 永远相信美好的事情即将发生
+# UI
+banner:
+  enable: true
+  title: 
+    - Euoao
+    - Blog
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+pages:
+  # - name: 我的小伙伴们
+  #   url: /links/
+  #   icon: ri:genderless-line
+  #   color: dodgerblue
+
+katex:
+  copy_tex: true
+  global: true
+  # Options are for katex rendering options: https://katex.org/docs/options.html
+  # In page katex options are also possible and will be merged
+  options: {}
+
+pjax:
+  enable: true
+
+  
+reward:
+  enable: false
+  icon: ri:hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+
+codeblock:
+  copy_btn: true
+
+wordcloud:
+  enable: true
+  height: 350
+
+
+# search
+# https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
+  
+social:
+  # - name: Codeforces
+  #   link: https://codeforces.com/profile/euoao
+  #   icon: https://cdn.codeforces.com/s/0/android-icon-192x192.png
+  #   color: orange
+
