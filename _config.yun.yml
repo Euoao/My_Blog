@@ -8,7 +8,7 @@ avatar:
 
   rounded: true
   opacity: 1
-  mickey_mouse: 
+  mickey_mouse: false
   status:
     enable: true
     emoji: 😊
