@@ -27,6 +27,13 @@ banner:
     enable: true
     icon: ri:arrow-down-s-line
 
+cursor:
+  enable: true
+  default: https://cdn.yunyoujun.cn/css/md-cursors/pointer.cur
+  pointer: https://cdn.yunyoujun.cn/css/md-cursors/link.cur
+  text: https://cdn.yunyoujun.cn/css/md-cursors/text.cur
+
+
 pages:
   # - name: 我的小伙伴们
   #   url: /links/
