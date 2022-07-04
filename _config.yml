@@ -16,7 +16,7 @@ timezone: ''
 url: https://euoao-blog.vercel.app
 # permalink: :year/:month/:day/:title/
 # permalink_defaults:
-permalink: posts/:abbrlink/
+permalink: :abbrlink/
 abbrlink:
   alg: crc32 # support crc16(default) and crc32
   rep: hex # support dec(default) and hex
