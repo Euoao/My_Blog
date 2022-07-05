@@ -2,7 +2,9 @@
 title: '[USACO21DEC] Convoluted Intervals S'
 tags:
   - 差分
-categories: 杂题
+categories: 
+- ACM
+- 杂题
 abbrlink: c42198e8
 date: 2022-07-03 15:33:02
 updated: 2022-07-03 15:33:02
@@ -12,7 +14,7 @@ updated: 2022-07-03 15:33:02
 
 ---
 
-# [USACO21DEC]  Convoluted Intervals S
+# [[USACO21DEC]  Convoluted Intervals S](https://www.luogu.com.cn/problem/P7992)
 
 昨天训练赛题，感觉挺有意思的
 
