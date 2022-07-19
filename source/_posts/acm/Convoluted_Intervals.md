@@ -12,7 +12,6 @@ updated: 2022-07-03 15:33:02
 
 <!-- more -->
 
----
 
 # [[USACO21DEC]  Convoluted Intervals S](https://www.luogu.com.cn/problem/P7992)
 
@@ -74,4 +73,5 @@ int main(){
 }
 ```
 
+---
 <!-- Q.E.D. -->
