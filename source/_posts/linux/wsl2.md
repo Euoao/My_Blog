@@ -5,7 +5,6 @@ tags:
   - WSL2
   - VcXsrv
 categories:
-  - 后端
   - Linux
 abbrlink: a678c4cd
 date: 2023-03-01 19:12:21
