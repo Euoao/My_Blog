@@ -57,6 +57,8 @@ private:
 class Singleton {
 public:
 
+    Singleton() {}
+
     ~Singleton() {}
 
     Singleton(const Singleton& singleton) = delete;
@@ -68,7 +70,7 @@ public:
         if (m_ptr == nullptr) {
             std::lock_guard<std::mutex> lk(m_mutex);
             if (m_ptr == nullptr) {
-                m_ptr = std::shared_ptr<Singleton>(new Singleton);
+                m_ptr = std::make_shared<Singleton>();
             }
         }
         return m_ptr;
@@ -76,10 +78,6 @@ public:
 
 
 private:
-
-    Singleton() {}
-
-
     static std::shared_ptr<Singleton> m_ptr;
     static std::mutex m_mutex;
 };
