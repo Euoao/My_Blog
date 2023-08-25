@@ -316,6 +316,6 @@ int main() {
 
 ---
 
-To Be Continued.
+
 
 <!-- Q.E.D. -->
